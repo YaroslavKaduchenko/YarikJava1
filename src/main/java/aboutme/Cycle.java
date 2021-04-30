@@ -92,15 +92,6 @@ public class Cycle {
         sumUntil();
     }
 
-    private static void co2() {
-        for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
-
-            int kt = (entry.getValue()) / 1000;
-
-            System.out.println(entry.getKey() + " - " + kt + "kt");
-        }
-    }
-
 
     public static void englishLessons() {
 
@@ -115,6 +106,15 @@ public class Cycle {
                 lessonTime = " с 20 до 21 уроки ";
             }
             System.out.println(++number + " в " + day + lessonTime);
+        }
+    }
+
+    private static void co2() {
+        for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
+
+            int kt = (entry.getValue()) / 1000;
+
+            System.out.println(entry.getKey() + " - " + kt + "kt");
         }
     }
 
