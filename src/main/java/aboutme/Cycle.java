@@ -92,15 +92,6 @@ public class Cycle {
         sumUntil();
     }
 
-    private static void co2() {
-        for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
-
-            int kt = (entry.getValue()) / 1000;
-
-            System.out.println(entry.getKey() + " - " + kt + "kt");
-        }
-    }
-
 
     public static void englishLessons() {
 
@@ -124,6 +115,15 @@ public class Cycle {
             //TUESDAY: I wake up, clean teeth, do smth, clean teeth, fall asleep.
             //...
             System.out.println(day + ": " + WAKE_UP + weekDayLogic.get(day) + ", " + FALL_ASLEEP);
+        }
+    }
+
+    private static void co2() {
+        for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
+
+            int kt = (entry.getValue()) / 1000;
+
+            System.out.println(entry.getKey() + " - " + kt + "kt");
         }
     }
 
