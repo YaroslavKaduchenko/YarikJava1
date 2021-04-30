@@ -127,6 +127,15 @@ public class Cycle {
         }
     }
 
+    private static void co2() {
+        for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
+
+            int kt = (entry.getValue()) / 1000;
+
+            System.out.println(entry.getKey() + " - " + kt + "kt");
+        }
+    }
+
     public static void rhyme() {
         for (int iterator = 2; iterator <= 9; iterator = iterator + 1) {
             String result;
