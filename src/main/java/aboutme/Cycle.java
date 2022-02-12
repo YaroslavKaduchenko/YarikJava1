@@ -109,7 +109,7 @@ public class Cycle {
         }
     }
 
-    private static void co2() {
+    private static void co3() {
         for (Map.Entry<Countries, Integer> entry : countryCO2Map.entrySet()) {
 
             int kt = (entry.getValue()) / 1000;
